@@ -10,11 +10,11 @@ int korijen(int n)
 int zbir(int a, int b)
 {
     return a+b;
-
+}
 int djeljenje(int a, int b)
 {
     return a/b;
-
+}
 int mnozenje(int a, int b)
 {
     return a*b;
