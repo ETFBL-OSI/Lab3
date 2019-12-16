@@ -29,6 +29,17 @@ int stepenovanje(int x)
     return y;
 }
 
+void SumaBrojeva(int n)
+{
+    int br, suma=0, i;
+    for( i=0; i < n; i++)
+    {
+        printf("%d. broj: ", i+1); scanf("%d", &br);
+        suma+=br;
+    }
+    printf("Suma brojeva je %d.", suma);
+}
+
 int main()
 {
     printf("Hello world!\n");
