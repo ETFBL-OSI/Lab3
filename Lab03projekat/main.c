@@ -20,6 +20,15 @@ int mnozenje(int a, int b)
     return a*b;
 
 }
+
+int stepenovanje(int x)
+{
+
+    int y;
+    y=x*x;
+    return y;
+}
+
 int main()
 {
     printf("Hello world!\n");
