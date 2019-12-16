@@ -46,9 +46,6 @@ void SumaBrojeva(int n)
 
 int main()
 {
-    int n;
-    printf("n=");
-    scanf("%d",&n);
-    korijen(n);
+
     return 0;
 }
