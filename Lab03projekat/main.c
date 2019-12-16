@@ -1,9 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 
-int korijen(int n)
+void korijen(int n)
 {
-	printf("Korijen broja %d je %d.",n,sqrt(n));
+	printf("Korijen broja %d je: ",n);
+	int p;
+	p=sqrt(n);
+	printf("%d",p);
 }
 
 
@@ -42,6 +46,9 @@ void SumaBrojeva(int n)
 
 int main()
 {
-    printf("Hello world!\n");
+    int n;
+    printf("n=");
+    scanf("%d",&n);
+    korijen(n);
     return 0;
 }
