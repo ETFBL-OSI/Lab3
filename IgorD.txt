@@ -1,6 +1,4 @@
 test
-<<<<<<< HEAD
 cica
-=======
 oksss
->>>>>>> d41c16b18d3d98f6bc03ef9678f8e2df33b9fbfe
+
