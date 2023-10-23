@@ -1,4 +1,9 @@
 test
+<<<<<<< HEAD
 cica
 oksss
 
+=======
+new line
+oksss
+>>>>>>> 3216f2b435ee163553c75cdc97e8e20bdea7a0e6
