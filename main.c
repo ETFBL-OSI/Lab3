@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 void stepen_broja()
 {
     int n,s;
@@ -8,7 +8,13 @@ void stepen_broja()
     scanf("%d",  &s);
     printf("%d", pow(n,s));
 }
-=======
+
+
+int oduzimanje_2_br(int a, int b)
+{
+    return a-b;
+}
+
 int sumaNbrojeva(int n, int *niz) {
 	int suma = 0;
 	for (int i = 0; i < n;i++) {
@@ -17,3 +23,4 @@ int sumaNbrojeva(int n, int *niz) {
 
 	return suma;
 }
+
