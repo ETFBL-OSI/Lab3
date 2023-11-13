@@ -1,5 +1,6 @@
 
 
+<<<<<<< HEAD
 #include <stdio.h>
 
 int mnozenje(int a, int b)
@@ -11,6 +12,27 @@ int mnozenje(int a, int b)
 int oduzimanje_2_br(int a, int b)
 {
     return a-b;
+=======
+
+
+int proizvod_n_brojeva(int n)
+{
+    printf("Unesite %d brojeva:\n", n);
+    for (i = 0; i < n; ++i) {
+    int broj;
+    scanf("%d", &broj);
+    proizvod *= broj;
+
+    return proizvod;
+}
+
+float korijen(int n)
+{
+    float korijen;
+    korijen=sqrt(n);
+    return korijen;
+
+>>>>>>> 1b82a54b1c1e75a74dc0f7e991f17a658c0c40cf
 
 int Oduzimanje_N_brojeva(int n, ...)
 {
@@ -43,3 +65,7 @@ double srednja_vrijednost(double x, double y) {
 	return rez;
 
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1b82a54b1c1e75a74dc0f7e991f17a658c0c40cf
