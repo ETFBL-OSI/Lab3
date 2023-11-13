@@ -1,5 +1,18 @@
 #include <math.h>
-#include <>
+#include <stdarg.h>
+
+int Oduzimanje_N_brojeva(int n, ...)
+{
+    va_list oduzimanje;
+    va_start(oduzimanje, n);
+    int s = va_arg(oduzimanje, int);
+    for (int i = 1; i < n; i++)
+    {
+        s -= va_arg(oduzimanje, int);
+    }
+    va_end(oduzimanje);
+    return s;
+}
 
 void stepen_broja()
 {
@@ -11,10 +24,10 @@ void stepen_broja()
     printf("%d", pow(n,s));
 }
 
+double srednja_vrijednost(double x, double y) {
 
-int oduzimanje_2_br(int a, int b)
-{
-    return a-b;
+	double rez = (x + y) / 2;
+	return rez;
 }
 
 int sumaNbrojeva(int n, int *niz) {
@@ -54,3 +67,4 @@ int main()
 
     return 0;
 }
+
