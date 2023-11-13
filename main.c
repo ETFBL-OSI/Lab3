@@ -13,6 +13,13 @@ int proizvod_n_brojeva(int n)
     return proizvod;
 }
 
+float korijen(int n)
+{
+    float korijen;
+    korijen=sqrt(n);
+    return korijen;
+
+
 int Oduzimanje_N_brojeva(int n, ...)
 {
     va_list oduzimanje;
