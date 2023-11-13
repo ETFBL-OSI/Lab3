@@ -1,8 +1,16 @@
 #include <math.h>
 #include <stdarg.h>
+#include <stdio.h>
 
+int mnozenje(int a, int b)
+{
+    return a*b;
+}
 
-
+int oduzimanje_2_br(int a, int b)
+{
+    return a-b;
+}
 
 int proizvod_n_brojeva(int n)
 {
@@ -11,7 +19,7 @@ int proizvod_n_brojeva(int n)
     int broj;
     scanf("%d", &broj);
     proizvod *= broj;
-
+    }
     return proizvod;
 }
 
@@ -43,9 +51,11 @@ void stepen_broja()
     printf("Unesi stepen broja: ");
     scanf("%d",  &s);
     printf("%d", pow(n,s));
+
 }
 
 double srednja_vrijednost(double x, double y) {
+
 
 	double rez = (x + y) / 2;
 	return rez;
@@ -88,4 +98,3 @@ int main()
 
     return 0;
 }
-
