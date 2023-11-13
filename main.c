@@ -1,6 +1,17 @@
 #include <math.h>
 #include <>
 
+void stepen_broja()
+{
+    int n,s;
+    printf("Unesi broj: ");
+    scanf("%d", &n);
+    printf("Unesi stepen broja: ");
+    scanf("%d",  &s);
+    printf("%d", pow(n,s));
+}
+
+
 int oduzimanje_2_br(int a, int b)
 {
     return a-b;
@@ -13,6 +24,10 @@ int sumaNbrojeva(int n, int *niz) {
 	}
 
 	return suma;
+}
+
+float podijeli_dva_broja(int a, int b){
+    if(b==0) return a/b;
 }
 
 int sabiranje2broja(int a, int b)
