@@ -1,2 +1,2 @@
 # Lab3
-nesto novo
+Primjer opisa projekta
