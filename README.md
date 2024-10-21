@@ -1,8 +1,16 @@
 # Lab3
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 text
 Primjer opisa projekta
+=======
+<<<<<<< HEAD
+svi imamo jedinstven tekst
+=======
+Primjer opisa projekta
+>>>>>>> 29fab1d4b5c4256c6e8c5dd9be52fe3714a80e82
+>>>>>>> 6f0a8a8a61ec38f243def7acf8f1b942166ffc78
 =======
 test 123456789
 milica
