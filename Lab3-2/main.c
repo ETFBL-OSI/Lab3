@@ -33,6 +33,16 @@ int mnozenje(int a, int b){
 return a*b;
 }
 
+int mnozenje_n(int n, int niz[])
+{
+    int result=1;
+    for (int i=0; i<n;i++)
+    {
+        result*=niz[i];
+    }
+return result;
+}
+
 int main()
 {
     float c;
@@ -68,6 +78,10 @@ int main()
 
 
     printf("Kvadratni korijen broja 4 je: %.2lf.\n", kvadratni_korijen(4));
+
+    int arr[3]={1,2,3};
+    int m=mnozenje_n(3,&arr);
+   printf("%d", m);
 
     return 0;
 
