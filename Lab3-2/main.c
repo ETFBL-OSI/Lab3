@@ -26,6 +26,7 @@ return a*b;
 int main()
 {
 
+
     int a,b;
     printf ("Unesite broj a: ");
     scanf ("%d" , &a);
@@ -40,6 +41,14 @@ int main()
     int ts=saberi(10, 5);
     printf("%d",ts);
 
+
+
+
+
+    printf("suma 10 i 5 je = %d\n",saberi(10, 5));
+
+
+    printf("Kvadratni korijen broja 4 je: %.2lf.\n", kvadratni_korijen(4));
 
 
     return 0;
