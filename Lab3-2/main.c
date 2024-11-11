@@ -19,6 +19,7 @@ int faktorijel(int n)
     return n;
 }
 
+<<<<<<< HEAD
 int StepenovanjeBroja(int Broj, int Stepen);
 
 int main()
@@ -27,7 +28,40 @@ int main()
     int ts=saberi(10, 5);
     printf("suma 10 i 5 je = %d\n",ts);
     printf("Kvadratni korijen broja 4 je: %.2lf.\n", kvadratni_korijen(4));
+int mnozenje(int a, int b){
+return a*b;
+}
+
+int main()
+{
+
+
+    int a,b;
+    printf ("Unesite broj a: ");
+    scanf ("%d" , &a);
+    printf ("Unesite broj b: ");
+    scanf ("%d" , &b);
+    int rezultat = mnozenje(a,b);
+    printf ("rezultat je %d", rezultat);
+
+  return 0;
+
+
+    int ts=saberi(10, 5);
+    printf("%d",ts);
+
+
+
+
+
+    printf("suma 10 i 5 je = %d\n",saberi(10, 5));
+
+
+    printf("Kvadratni korijen broja 4 je: %.2lf.\n", kvadratni_korijen(4));
+
+
     return 0;
+
 }
 
 int StepenovanjeBroja(int Broj, int Stepen)
