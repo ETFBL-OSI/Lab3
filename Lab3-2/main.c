@@ -21,12 +21,11 @@ int faktorijel(int n)
 
 int main()
 {
-<<<<<<< HEAD
-    int ts=saberi(10, 5);
-    printf("suma 10 i 5 je = %d\n",ts);
 
-=======
+    printf("suma 10 i 5 je = %d\n",saberi(10, 5));
+
+
     printf("Kvadratni korijen broja 4 je: %.2lf.\n", kvadratni_korijen(4));
->>>>>>> 73ec4ffde248c8488a0a2db6e34f57f705b6af9e
+
     return 0;
 }
