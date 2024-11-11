@@ -18,14 +18,34 @@ int faktorijel(int n)
     }
     return n;
 }
+int StepenovanjeBroja(int Broj, int Stepen);
 
 float srednja_vr(int a, int b) {
 
     return (a + b) / 2;
 }
 
+int main()
+{
+    printf("%d", StepenovanjeBroja(2, 3));
+    int ts=saberi(10, 5);
+    printf("suma 10 i 5 je = %d\n",ts);
+    printf("Kvadratni korijen broja 4 je: %.2lf.\n", kvadratni_korijen(4));
+float srednja_vr(int a, int b) {
+
+    return (a+b)/2;
 int mnozenje(int a, int b){
 return a*b;
+}
+
+int mnozenje_n(int n, int niz[])
+{
+    int result=1;
+    for (int i=0; i<n;i++)
+    {
+        result*=niz[i];
+    }
+return result;
 }
 
 int main()
@@ -33,7 +53,6 @@ int main()
     float c;
 
     c = srednja_vr(2, 5);
-
 
     int ts=saberi(10, 5);
     printf("suma 10 i 5 je = %d\n",ts);
@@ -65,6 +84,18 @@ int main()
 
     printf("Kvadratni korijen broja 4 je: %.2lf.\n", kvadratni_korijen(4));
 
+    int arr[3]={1,2,3};
+    int m=mnozenje_n(3,&arr);
+   printf("%d", m);
+
     return 0;
 
+}
+
+int StepenovanjeBroja(int Broj, int Stepen)
+{
+    int rez = 1;
+    for (int i = Stepen; i < 0; i--)
+        rez *= Broj;
+    return rez;
 }
