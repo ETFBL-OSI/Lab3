@@ -15,7 +15,7 @@ int main()
 {
 <<<<<<< HEAD
     int ts=saberi(10, 5);
-    printf("%d",ts);
+    printf("suma 10 i 5 je = %d\n",ts);
 
 =======
     printf("Kvadratni korijen broja 4 je: %.2lf.\n", kvadratni_korijen(4));
