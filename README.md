@@ -1,4 +1,5 @@
 # Lab3
-primjer sadrzajadb
+km
+djuka lab34
 Neki primjer za labb
 
