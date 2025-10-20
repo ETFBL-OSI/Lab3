@@ -9,4 +9,6 @@ Neki primjer za labb
 djuka lab3
 primjer
 Neki primjer za labb
+nesto s
+lol
 
