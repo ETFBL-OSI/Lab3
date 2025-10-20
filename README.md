@@ -1,5 +1,3 @@
-# Lab3
-km
-djuka lab34
+primjer
 Neki primjer za labb
 
